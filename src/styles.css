@@ -15,7 +15,7 @@ body {
   align-items: center; /* Center content horizontally */
 }
 
-h1, h2 {
+h2 {
   color: #3a3a55;
 }
 
@@ -35,8 +35,8 @@ ul {
 
 
 header {
-  background-color: blue;
-  color: white;
+  background-color: #1F0822;
+  color: #FFF5C3;
   padding: 20px 0;
   width: 100%; 
   text-align: center;
@@ -101,7 +101,7 @@ header nav ul li a:hover {
 }
 
 .home {
-  background-color: #f9f9f9;
+  background-color: white;
   text-align: center;
 }
 
@@ -110,7 +110,7 @@ header nav ul li a:hover {
 }
 
 .projects {
-  background-color: #f4f4f9;
+  background-color: white;
 }
 
 .contact {
@@ -150,5 +150,33 @@ footer {
   .skill-item img.html-css-js-logo {
     width: 80px;
     height: 80px;
+  }
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Spacing between the logos */
+}
+
+.contact-logo {
+  width: 40px;  /* Adjust the size as per your preference */
+  height: 40px; /* Ensure the logos are all the same size */
+  object-fit: contain;
+}
+
+.contact-icons a:hover .contact-logo {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+@media (max-width: 768px) {
+  .contact-icons {
+    gap: 10px;
+  }
+
+  .contact-logo {
+    width: 30px; /* Smaller size for mobile */
+    height: 30px;
   }
 }

@@ -20,10 +20,9 @@ function App() {
         <section id="home" className="section home">
           <h2>Welcome to My Portfolio</h2>
           <p>Namaste, I'm Divyansh, a passionate programmer and developer with skills in Python, C, and web development using React.js and Javascript.
-            I am activily working on upskilling myself, my current focus being on mastering react.js. I am also enthusiastic about Artificial Intelligence
-            and Machine Learning hence i am also working with libraries like Pandas and OpenCV on Python.
-             </p>
-
+            I am actively working on upskilling myself, my current focus being on mastering react.js. I am also enthusiastic about Artificial Intelligence
+            and Machine Learning hence I am also working with libraries like Pandas and OpenCV on Python.
+          </p>
         </section>
 
         <section id="skills" className="section skills">
@@ -39,7 +38,7 @@ function App() {
             </div>
             <div className="skill-item">
               <img src="/Images/c.png" alt="C Logo" />
-              <p><strong>C:</strong> Decent </p>
+              <p><strong>C:</strong> Decent</p>
             </div>
             <div className="skill-item">
               <img src="/Images/js.png" alt="HTML, CSS, JS Logo" />
@@ -59,8 +58,20 @@ function App() {
 
         <section id="contact" className="section contact">
           <h2>Contact Me</h2>
-          <p>Email: divynsh1505@gmail.com</p>
-          <p>GitHub: <a href="https://github.com/divyansh1505" target="_blank" rel="noopener noreferrer">Divyansh Dubey</a></p>
+          <div className="contact-icons">
+            <a href="mailto:divynsh1505@gmail.com" title="Gmail">
+              <img src="/Images/gmail.png" alt="Gmail Logo" className="contact-logo" />
+            </a>
+            <a href="https://github.com/divyansh1505" target="_blank" rel="noopener noreferrer" title="GitHub">
+              <img src="/Images/git.png" alt="GitHub Logo" className="contact-logo" />
+            </a>
+            <a href="https://www.instagram.com/divyan8h/" target="_blank" rel="noopener noreferrer" title="Instagram">
+              <img src="/Images/insta.png" alt="Instagram Logo" className="contact-logo" />
+            </a>
+            <a href="https://www.linkedin.com/in/divyansh1505" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              <img src="/Images/ln.png" alt="LinkedIn Logo" className="contact-logo" />
+            </a>
+          </div>
         </section>
       </main>
 
@@ -72,4 +83,5 @@ function App() {
 }
 
 export default App;
+
 
