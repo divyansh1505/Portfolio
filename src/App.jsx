@@ -30,19 +30,19 @@ function App() {
           <h2>My Skills</h2>
           <div className="skills-grid">
             <div className="skill-item">
-              <img src="./public/Images/react.png" alt="React Logo" />
+              <img src="/Images/react.png" alt="React Logo" />
               <p><strong>React:</strong> Beginner</p>
             </div>
             <div className="skill-item">
-              <img src="./public/Images/python.png" alt="Python Logo" />
+              <img src="/Images/python.png" alt="Python Logo" />
               <p><strong>Python:</strong> Proficient (My strongest language)</p>
             </div>
             <div className="skill-item">
-              <img src="./public/Images/c.png" alt="C Logo" />
+              <img src="/Images/c.png" alt="C Logo" />
               <p><strong>C:</strong> Decent </p>
             </div>
             <div className="skill-item">
-              <img src="./public/Images/js.png" alt="HTML, CSS, JS Logo" />
+              <img src="/Images/js.png" alt="HTML, CSS, JS Logo" />
               <p><strong>HTML, CSS, JavaScript:</strong> Good understanding</p>
             </div>
           </div>
